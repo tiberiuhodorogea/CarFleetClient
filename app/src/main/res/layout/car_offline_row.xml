@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:background="@color/myThemeLighterBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/car_no_status_64"
+            android:layout_margin="8dp"
+            android:id="@+id/statusImageOffline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CT 19 TBI"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/statusImageOffline"
+            android:layout_marginTop="12dp"
+            android:id="@+id/licencePlateTagOffline"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/licencePlateTagOffline"
+            android:text="  -  "
+            android:textStyle="italic"
+            android:layout_marginTop="12dp"
+            android:id="@+id/separatorLicenceDriverOffline"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/separatorLicenceDriverOffline"
+            android:text="offline"
+            android:textStyle="italic"
+            android:layout_marginTop="12dp"
+            android:id="@+id/staticOfflineTag"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last update: "
+            android:layout_toEndOf="@+id/statusImageOffline"
+            android:layout_alignTop="@+id/licencePlateTagOffline"
+            android:layout_marginTop="23dp"
+            android:id="@+id/staticLastUpdate"
+            android:layout_marginLeft="-5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 days ago"
+            android:textStyle="italic"
+            android:layout_toEndOf="@+id/staticLastUpdate"
+            android:layout_alignBottom="@+id/staticLastUpdate"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/statusImageOffline"
+            android:text="Last seen near  "
+            android:layout_below="@id/staticLastUpdate"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/arrow_next"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

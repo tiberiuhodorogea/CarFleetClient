@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:text="userMail"
+
+        android:id="@+id/title_userMail"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:text="Logged in as"
+        android:layout_below="@id/title_userMail"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAllCaps="true"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#fff"
+    android:textSize="14sp"
+    android:textStyle="italic"
+    android:text="  "
+    android:layout_below="@+id/title_userMail"
+    android:layout_toEndOf="@id/title_text"
+    android:id="@+id/title_space"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:text="ROLE"
+        android:layout_below="@+id/title_userMail"
+        android:layout_toEndOf="@id/title_space"
+        android:id="@+id/title_userRole"/>
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@null"
+        android:src="@drawable/settings_white" />
+
+</RelativeLayout>

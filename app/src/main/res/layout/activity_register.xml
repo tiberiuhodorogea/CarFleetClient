@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tiber.carfleetproject.Activities.ActivityRegister">
+
+    <EditText
+        android:textColorHint="@color/myThemeGreyHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="mail@example.com"
+        android:id="@+id/editTextRegisterMail"/>
+
+
+    <EditText
+        android:layout_marginTop="25px"
+        android:inputType="textPassword"
+        android:textColorHint="@color/myThemeGreyHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/editTextRegisterPassword"
+        />
+    <EditText
+        android:layout_marginTop="25px"
+        android:inputType="textPassword"
+        android:textColorHint="@color/myThemeGreyHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/editTextRegisterConfirmPassword"
+        />
+</RelativeLayout>

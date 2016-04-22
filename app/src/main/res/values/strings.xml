@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CarFleet Project</string>
+    <string name="menu_title">Logged in as  </string>
+    <string name="connection_problem">Can\'t contact server, please check internet connection or try again later</string>
+    <string-array name="menu_options">
+        <item>Fleet list</item>
+        <item>Fleet map</item>
+        <item>Alerts</item>
+        <item>Reports</item>
+        <item>Car inspections</item>
+        <item>Add vehicle</item>
+        <item>Add driver</item>
+        <item>Exit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="SERVER_ADDRESS">192.168.0.104</string>
+    <integer name="PORT">6843</integer>
+    <integer name="CONNECT_TO_SERVER_TIMEOUT">4000</integer>
+
+</resources>

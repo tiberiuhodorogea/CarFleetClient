@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#afb01c</color>
+    <color name="myThemeBlack">#555555</color>
+    <color name="myThemeLighterBlack">#888888</color>
+    <color name="myThemeButtons">#ffffff</color>
+    <color name="myThemeYellow">#afb01c</color>
+    <color name="myThemeSecondYellow">#afb01c</color>
+    <color name="myThemeGreyHint">#707070</color>
+    <color name="carOnlineColor">#2DE333</color>
+    <color name="carOfflineColor">#ED0000</color>
+</resources>
